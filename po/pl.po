@@ -1,0 +1,225 @@
+# Polish translations for Criterion package.
+# Copyright (C) 2017 Franklin Snaipe Mathieu
+# This file is distributed under the same license as the Criterion package.
+# Piotr Osiewicz <peterosiewicz@gmail.com>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Criterion \n"
+"Report-Msgid-Bugs-To: franklinmathieu+criterion@gmail.com\n"
+"POT-Creation-Date: 2017-07-21 12:05+0200\n"
+"PO-Revision-Date: 2017-07-21 12:20+0200\n"
+"Last-Translator: Piotr Osiewicz <peterosiewicz@gmail.com>\n"
+"Language-Team: Polish\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+
+#: src/log/normal.c:47
+#, c-format
+msgid "Criterion v%s\n"
+msgstr "Criterion v%s\n"
+
+#: src/log/normal.c:48
+#, c-format
+msgid "  %s\n"
+msgstr "  %s\n"
+
+#: src/log/normal.c:51 src/log/normal.c:52
+#, c-format
+msgid "%1$s::%2$s\n"
+msgstr "%1$s::%2$s\n"
+
+#: src/log/normal.c:53
+#, c-format
+msgid "%1$s::%2$s: (%3$3.2fs)\n"
+msgstr "%1$s::%2$s: (%3$3.2fs)\n"
+
+#: src/log/normal.c:54
+#, c-format
+msgid "%1$s::%2$s: Test was skipped\n"
+msgstr "%1$s::%2$s: Test został pominięty\n"
+
+#: src/log/normal.c:55
+#, c-format
+msgid "%1$s::%2$s: Test is disabled\n"
+msgstr "%1$s::%2$s: Test jest wyłączony\n"
+
+#: src/log/normal.c:56
+#, c-format
+msgid "%1$s%2$s%3$s:%4$s%5$d%6$s: %7$s\n"
+msgstr "%1$s%2$s%3$s:%4$s%5$d%6$s: %7$s\n"
+
+#: src/log/normal.c:57
+#, c-format
+msgid "  %1$s: %2$s\n"
+msgstr "  %1$s: %2$s\n"
+
+#: src/log/normal.c:58
+#, c-format
+msgid "    %1$s: %2$s[-%3$s-]%4$s%5$s{+%6$s+}%7$s\n"
+msgstr "    %1$s: %2$s[-%3$s-]%4$s%5$s{+%6$s+}%7$s\n"
+
+#: src/log/normal.c:59
+#, c-format
+msgid "    %1$s: %2$s%3$s%4$s\n"
+msgstr "    %1$s: %2$s%3$s%4$s\n"
+
+#: src/log/normal.c:60
+#, c-format
+msgid "  Theory %1$s::%2$s failed with the following parameters: (%3$s)\n"
+msgstr "  Teoria %1$s::%2$s nie powiodła się z następującymi parametrami: (%3$s)\n"
+
+
+#: src/log/normal.c:61
+#, c-format
+msgid "%1$s::%2$s: Timed out. (%3$3.2fs)\n"
+msgstr "%1$s::%2$s: Upłynął czas. (%3$3.2fs)\n"
+
+#: src/log/normal.c:62
+#, c-format
+msgid "%1$s%2$s%3$s:%4$s%5$u%6$s: Unexpected signal caught below this line!\n"
+msgstr "%1$s%2$s%3$s:%4$s%5$u%6$s: Poniżej wystąpił nieoczekiwany sygnał!\n"
+
+#: src/log/normal.c:63
+#, c-format
+msgid "%1$s::%2$s: CRASH!\n"
+msgstr "%1$s::%2$s: NIEOCZEKIWANE ZAKOŃCZENIE PROGRAMU!\n"
+
+#: src/log/normal.c:64
+#, c-format
+msgid "%1$s::%2$s: %3$s\n"
+msgstr "%1$s::%2$s: %3$s\n"
+
+#: src/log/normal.c:65
+#, c-format
+msgid ""
+"%1$sWarning! The test `%2$s::%3$s` crashed during its setup or teardown."
+"%4$s\n"
+msgstr ""
+"%1$sUwaga! Test `%2$s::%3$s` nieoczekiwanie zakończył swoje działanie podczas"
+"inicjalizacji lub dekonstrukcji."
+"%4$s\n"
+
+#: src/log/normal.c:66
+#, c-format
+msgid ""
+"%1$sWarning! The test `%2$s::%3$s` exited during its setup or teardown.%4$s\n"
+msgstr ""
+"%1$sUwaga! Test `%2$s::%3$s` zakończył swoje działanie podczas inicjalizacji lub dekonstrukcji.%4$s\n"
+
+
+#: src/log/normal.c:67
+#, c-format
+msgid "Running %1$s%2$lu%3$s test from %4$s%5$s%6$s:\n"
+msgid_plural "Running %1$s%2$lu%3$s tests from %4$s%5$s%6$s:\n"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: src/log/normal.c:69
+#, c-format
+msgid ""
+"%1$sSynthesis: Tested: %2$s%3$lu%4$s | Passing: %5$s%6$lu%7$s | Failing: %8$s"
+"%9$lu%10$s | Crashing: %11$s%12$lu%13$s %14$s\n"
+msgstr ""
+"%1$sPodsumowanie: Ilość testów: %2$s%3$lu%4$s | Pomyślne: %5$s%6$lu%7$s | Nieudane: %8$s"
+"%9$lu%10$s | Nieoczekiwanie zakończone: %11$s%12$lu%13$s %14$s\n"
+
+#: src/log/normal.c:74
+#, c-format
+msgid "%2$*1$s%3$s%4$s%5$s\n"
+msgstr "%2$*1$s%3$s%4$s%5$s\n"
+
+#: src/log/normal.c:192
+msgid "Assertion Failed"
+msgstr "Asercja nie powiodła się"
+
+#: src/string/i18n.c:15
+msgid "The conditions for this assertion were not met."
+msgstr "Warunki dla tej asercji nie zostały spełnione."
+
+#: src/string/i18n.c:16
+#, c-format
+msgid "The expression %s is false."
+msgstr "Wyrażenie %s jest fałszywe."
+
+#: src/string/i18n.c:17
+#, c-format
+msgid "%s is null."
+msgstr "%s jest równy zero."
+
+#: src/string/i18n.c:18
+#, c-format
+msgid "%s is not null."
+msgstr "%s nie jest równy zero."
+
+#: src/string/i18n.c:19
+#, c-format
+msgid "%s is empty."
+msgstr "%s jest pusty"
+
+#: src/string/i18n.c:20
+#, c-format
+msgid "The statement `%s` did not throw any exception."
+msgstr "Twierdzenie '%s' nie wywołało żadnego wyjątku."
+
+#: src/string/i18n.c:21
+#, c-format
+msgid "The statement `%s` threw some exception."
+msgstr "Twierdzenie '%s' wywołało wyjątek."
+
+#: src/string/i18n.c:24
+#, c-format
+msgid ""
+"The expression (as strings) %1$s is false: actual=`%2$s` expected=`%3$s`."
+msgstr "Wyrażenie (jako literały) %1$s jest fałszywe: rzeczywiste='%2$s' spodziewane='%3$s'."
+
+#: src/string/i18n.c:25
+#, c-format
+msgid "%1$s (`%2$s`) is not empty."
+msgstr "%1$s ('%2$s') nie jest pusty."
+
+#: src/string/i18n.c:26
+#, c-format
+msgid "The file contents of %1$s does not match the string \"%2$s\"."
+msgstr "Zawartość pliku %1$s nie jest równa literałowi \"%2$s\"."
+
+#: src/string/i18n.c:27
+#, c-format
+msgid "The file contents of %1$s does not match the contents of %2$s."
+msgstr "Zawartość pliku %1$s nie jest równa zawartości pliku %2$s."
+
+#: src/string/i18n.c:28
+#, c-format
+msgid "The statement `%1$s` did throw an instance of the `%2$s` exception."
+msgstr "Twierdzenie '%1$s' wywołało wyjątek typu '%2$s'."
+
+#: src/string/i18n.c:29
+#, c-format
+msgid "The statement `%1$s` did not throw an instance of the `%2$s` exception."
+msgstr "Twierdzenie '%1$s' nie wywołało wyjątku typu '%2$s'."
+
+#: src/core/runner.c:70
+#, c-format
+msgid ""
+"%1$sWarning! Criterion has detected that it is running under valgrind, but "
+"the number of jobs have been explicitely set. Reports might appear confusing!"
+"%2$s\n"
+msgstr ""
+"%1$sUwaga! Wykryto działanie pod Valgrindem,jednak "
+"ilość prac została jawnie ustawiona. Raporty mogą być mylące!"
+"%2$s\n"
+
+#: src/io/output.c:36
+#, c-format
+msgid "Could not open the file @ `%1$s` for %2$s reporting: %3$s.\n"
+msgstr "Nie udało się otworzyć pliku @ `%1$s` do %2$s raportowania: %3$s.\n"
+
+#: src/io/output.c:37
+#, c-format
+msgid "Writing %1$s report in `%2$s`.\n"
+msgstr "Zapisywanie raportu %1$s w `%2$s`.\n"

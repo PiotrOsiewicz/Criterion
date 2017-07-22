@@ -150,12 +150,12 @@ msgstr "Wyrażenie %s jest fałszywe."
 #: src/string/i18n.c:17
 #, c-format
 msgid "%s is null."
-msgstr "%s jest równy zero."
+msgstr "%s jest równy NULL."
 
 #: src/string/i18n.c:18
 #, c-format
 msgid "%s is not null."
-msgstr "%s nie jest równy zero."
+msgstr "%s nie jest równy NULL."
 
 #: src/string/i18n.c:19
 #, c-format
@@ -211,7 +211,7 @@ msgid ""
 "%2$s\n"
 msgstr ""
 "%1$sUwaga! Wykryto działanie pod Valgrindem,jednak "
-"ilość prac została jawnie ustawiona. Raporty mogą być mylące!"
+"ilość procesów została jawnie ustawiona. Raporty mogą być mylące!"
 "%2$s\n"
 
 #: src/io/output.c:36

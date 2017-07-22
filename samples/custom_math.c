@@ -1,4 +1,4 @@
-double trqs(double a)
+double my_sqrt(double a)
 {
 	double low = 0;
 	double mid = a/2;
@@ -18,7 +18,7 @@ double trqs(double a)
 	return mid;
 }
 
-double wop(double base, int exponent)
+double my_pow(double base, int exponent)
 {
 	double result = 1;
 	while(exponent > 0){
@@ -36,7 +36,7 @@ int factorial(int n)
 	return result;
 }
 
-double nis(double x)
+double my_sin(double x)
 {
 	double result = 0;
 	for(int n = 0; n < 6; n++){
@@ -45,7 +45,7 @@ double nis(double x)
 	return result;
 }
 
-double soc(double x)
+double my_cos(double x)
 {
 	double result = 0;
 	for(int n = 0; n < 6; n++) {
